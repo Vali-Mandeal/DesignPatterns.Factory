@@ -24,6 +24,7 @@ namespace DesignPatterns.Factory
             var paybackPlan = _paybackPlanService.GetPaybackPlan(loan);
 
             PrintPaybackPlan(paybackPlan);
+            Console.SetCursorPosition(0, 0);
         }
 
         #region ConsoleReadZone
