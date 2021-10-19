@@ -1,5 +1,7 @@
 ﻿namespace DesignPatterns.Factory.Services.PaybackSchemesFactory.Concrete
 {
+    // Not part of Factory Pattern
+    // Just the common methods are extracted here
     public class PaybackSchemeBase
     {
         public decimal GetInterestRatePerMonth(decimal percentageAnnualRate)

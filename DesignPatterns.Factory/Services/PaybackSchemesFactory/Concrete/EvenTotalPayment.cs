@@ -3,6 +3,7 @@ using DesignPatterns.Factory.Entities;
 
 namespace DesignPatterns.Factory.Services.PaybackSchemesFactory.Concrete
 {
+    // Concrete Product Implementation
     public class EvenTotalPayment : IPaybackScheme
     {
         private readonly PaybackSchemeBase _paybackSchemeBase;

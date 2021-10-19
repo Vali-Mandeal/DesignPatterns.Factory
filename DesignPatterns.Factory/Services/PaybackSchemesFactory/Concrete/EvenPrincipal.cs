@@ -2,6 +2,7 @@
 
 namespace DesignPatterns.Factory.Services.PaybackSchemesFactory.Concrete
 {
+    // Concrete Product Implementation
     public class EvenPrincipal : IPaybackScheme
     {
         private readonly PaybackSchemeBase _paybackSchemeBase;
